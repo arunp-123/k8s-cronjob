@@ -1,10 +1,10 @@
-Create a custom  NS:
+# Create a custom  NS:
 
-# kubectl create namespace my-app
+$ kubectl create namespace my-app
 
-Create the cronJob
+# Create the cronJob
 
-# kubectl apply -f cronjob.yml
+$ kubectl apply -f cronjob.yml
 
 View all CronJobs in a specific namespace:
 
